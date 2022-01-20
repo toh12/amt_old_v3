@@ -6,7 +6,8 @@ The project is a modding toolkit to edit the encrypted files of the game
 
 The project was started to improve my C++ coding skills, and is still in 
 development. This version is available here as a code sample only, and will 
-not be updated.
+not be updated. However, I will edit and improve comments to help clarify
+where needed.
 
 The next version is making large changes in the framework: by moving all of
 the file management tools into the APCL library, adding limiters preventing
