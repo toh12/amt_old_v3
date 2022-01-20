@@ -19,29 +19,20 @@ demonstrations are available on request.
 
 ## Comments on the code
 
-#There are many techniques I have learnt and used in making this code:
+ There are many techniques I have learnt and used in making this code:
 
 -Library creation, compilation and linkage techinques (APCL)
-
 -Forward declaration of classes to avoid circular references
-
 -Iteratiors with and in algoritms (APCL & Localization Parser)
-
 -Smart pointers (mainly unique_ptrs in amtApp)
-
 -Experimented more with lambda functions (TreeMap in interface)
-
 -Became comfortable with brace initilization and virtual functions
-
 -Learnt about mutable, constexpr and inline keywords
-
 -Improved my usage and understanding of const
-
 -Improved my usage of templates
-
 -Better understood the value of following a naming convention
 
-#However, I also have found several issues with the current code:
+However, I also have found several issues with the current code:
 
 -Class design for the interface is trying to do too much with too few classes:
  The Container class in framework.h lacked a clear functionality, such
