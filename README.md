@@ -17,7 +17,7 @@ monatized. As a result the code cannot be compiled unless you were to reverse
 engineer the game and implement the APCL library yourself. However,
 demonstrations are available on request.
 
-# Comments on the code
+# Comments on the prjoect
 
 There are many techniques I have learnt and used in making this code:
 - Library creation, compilation and linkage techinques (APCL)
@@ -31,7 +31,7 @@ There are many techniques I have learnt and used in making this code:
 - Improved my usage of templates
 - Better understood the value of following a naming convention
 
-However, I also have found several issues with the current code:
+However, I also have found several issues with the project:
 
 - Class design for the interface is trying to do too much with too few classes:
   The Container class in framework.h lacked a clear functionality, such
