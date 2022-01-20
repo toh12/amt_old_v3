@@ -1,9 +1,9 @@
 # Awesomenauts Modding Toolkit v3
 
-This is the code designed to run the AMT user interface. The project was
-started to improve my C++ coding skills, and is still in development.
-This version is available here as a code sample only, and will not be
-developed any further.
+This is a large portion of the code designed to run the AMT user interface. 
+The project was started to improve my C++ coding skills, and is still in 
+development. This version is available here as a code sample only, and will 
+not be updated.
 
 The next version is making large changes in the framework: by moving all of
 the file management tools into the APCL library, adding limiters preventing
