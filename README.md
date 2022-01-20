@@ -1,4 +1,4 @@
-# Awesomenauts Modding Toolkit Project v3
+# Awesomenauts Modding Toolkit v3
 
 This is the code designed to run the AMT user interface. The project was
 started to improve my C++ coding skills, and is still in development.
