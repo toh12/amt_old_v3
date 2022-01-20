@@ -1,6 +1,9 @@
 # Awesomenauts Modding Toolkit v3
 
-This is a large portion of the code designed to run the AMT user interface. 
+This is a large portion of the code designed to run the AMT user interface.
+The project is a modding toolkit to edit the encrypted files of the game
+"Awesomenauts" and patch the game to accept the edited files.
+
 The project was started to improve my C++ coding skills, and is still in 
 development. This version is available here as a code sample only, and will 
 not be updated.
