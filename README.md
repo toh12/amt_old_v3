@@ -14,8 +14,8 @@ Out of consideration to the developers, the cryptography and patching library
 cannot be made public at this time, as the patching of files of a online PvP
 game could lead to an incease in hackers in a game that is still being 
 monatized. As a result the code cannot be compiled unless you were to reverse
-engineer the game and implement the APCL library yourself. Demonstrations are
-available on request.
+engineer the game and implement the APCL library yourself. However, d
+demonstrations are available on request.
 
 # Comments on the code
 
