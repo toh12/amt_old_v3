@@ -23,6 +23,15 @@ demonstrations are available on request.
 
 # Comments on the prjoect
 
+The project is split into 2 parts:
+- The framework and interface in the amt folder, which deals with the main
+  window of the GUI, and components that persist between tabs. It also lays
+  out base classes for the file specific classes to inherit from.
+- The per file type code (ie settings, localization, particles etc..).
+  These implement a data type, a model that stores the data type, a parser 
+  that converts the binary data into the data type, and a panel that forms 
+  the GUI for the tab.
+
 There are many techniques I have learnt and used in making this code:
 - Library creation, compilation and linkage techinques (APCL)
 - Forward declaration of classes to avoid circular references
