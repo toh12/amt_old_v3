@@ -1,3 +1,14 @@
+/*
+* Framework for the data storage. Definies the following
+* -Container that stores the data
+* -DataManager that holds a Container, loading, saving and parsing to it
+* 
+* The container class is the root of the class design issues in this version.
+* Originally a n-ary tree of binary trees (set), it lacked scope and direction.
+* The data storage would have been better dealt with as a specific solution for
+* each data type, possibly by having Container be a base class.
+*/
+
 #pragma once
 
 #include <string>
