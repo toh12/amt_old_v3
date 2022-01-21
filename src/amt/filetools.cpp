@@ -1,3 +1,10 @@
+/*
+* Old C style code that is midway through being refactored.
+* Will be rewritten in APCL.
+* Commented out code was removed due to refactoring, but
+* will be reintroduced later.
+*/
+
 #include <fstream>
 #include <algorithm>
 #include <filesystem>
