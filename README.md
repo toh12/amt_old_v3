@@ -33,7 +33,7 @@ The project is split into 2 parts:
   the GUI for the tab.
   
  Some choice snippits to look at:
- - Framework.cpp is an example of a small file with some concise C++ 
+ - framework.cpp is an example of a small file with some concise C++ 
    style code.
  - particles.h is a simple example of the implementation of the per
    file interface. animations.h is similar.
