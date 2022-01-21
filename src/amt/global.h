@@ -1,3 +1,6 @@
+//Lists event ID's for wxWidgets to prevent clashes, and creates a list of
+//all models (ie all data to load from the files.
+
 #pragma once
 
 #include <vector>
