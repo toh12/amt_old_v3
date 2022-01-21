@@ -36,7 +36,7 @@ The project is split into 2 parts:
  - Framework.cpp is an example of a small file with some concise C++ 
    style code.
  - particles.h is a simple example of the implementation of the per
-   file interface.
+   file interface. animations.h is similar.
 
 There are many techniques I have learnt and used in making this code:
 - Library creation, compilation and linkage techinques (APCL)
