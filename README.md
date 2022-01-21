@@ -31,6 +31,12 @@ The project is split into 2 parts:
   These implement a data type, a model that stores the data type, a parser 
   that converts the binary data into the data type, and a panel that forms 
   the GUI for the tab.
+  
+ Some choice snippits to look at:
+ - Framework.cpp is an example of a small file with some concise C++ 
+   style code.
+ - particles.h is a simple example of the implementation of the per
+   file interface.
 
 There are many techniques I have learnt and used in making this code:
 - Library creation, compilation and linkage techinques (APCL)
