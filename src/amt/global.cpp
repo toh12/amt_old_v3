@@ -1,3 +1,12 @@
+/*
+* Loads all models from the data. Doing this here made it more
+* convenient to alter the models for testing and helped prevent 
+* circular references with the #includes and reduced compile 
+* time.
+* However, I'm not happy with the existance of this file, as I
+* feel that there is a better method
+*/
+
 #include "global.h"
 #include "amt.h"
 #include "behaviour.h"
