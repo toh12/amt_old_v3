@@ -1,3 +1,10 @@
+/*
+* Provides the underlying interface that links the data to the models
+* and the data in the models to the panels. The concept was to prevent
+* memory leaks by using RAII to manage the data allocated on the heap.
+* TODO: Move to smart pointers.
+*/
+
 #pragma once
 
 #include <string>
@@ -28,7 +35,9 @@ namespace amt {
 		static constexpr unsigned int DEFAULT = COMPRESS | ENCRYPT;
 		static constexpr unsigned int DEFAULT_BIND = COMPRESS | ENCRYPT | BIND;
 	};
-
+	
+	//Provides a tree that serves as a link between the tree displayed in the main
+	//window and the setting specific tabs. Will be removed in the next version.
 	class TreeNode {
 	public:
 		TreeNode() {};
